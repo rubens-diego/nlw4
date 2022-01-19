@@ -1,6 +1,7 @@
+import Image from "next/image"
 import { useContext } from "react"
-import { ChalengeContext } from "../../contexts/ChalendsContext"
-import styles from "../../styles/components/levelUpModal.module.css"
+import { ChalengeContext } from "../contexts/ChalendsContext"
+import styles from "../styles/components/levelUpModal.module.css"
 
 export  function LevelUpModal () {
     const  {level , closelevelUpModalOpen} = useContext(ChalengeContext)

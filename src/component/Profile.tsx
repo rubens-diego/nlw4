@@ -1,6 +1,8 @@
-  import { useContext } from 'react'
-import { ChalengeContext } from '../../contexts/ChalendsContext'
-import styles from '../../styles/components/profile.module.css'
+  import Image from 'next/image'
+import { useContext } from 'react'
+
+import styles from '../styles/components/profile.module.css'
+import { ChalengeContext } from '../contexts/ChalendsContext'
  
  export  function Profile () {
    const {level} = useContext(ChalengeContext)

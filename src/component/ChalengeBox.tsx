@@ -1,9 +1,10 @@
 
 
+import Image from "next/image"
 import { useContext } from "react"
-import { ChalengeContext } from "../../contexts/ChalendsContext"
-import { CountDownContext } from "../../contexts/CountDownContext"
-import styled from "../../styles/components/chalengeBox.module.css"
+import { ChalengeContext } from "../contexts/ChalendsContext"
+import { CountDownContext } from "../contexts/CountDownContext"
+import styled from "../styles/components/chalengeBox.module.css"
 
 export function ChalendBox() {
 

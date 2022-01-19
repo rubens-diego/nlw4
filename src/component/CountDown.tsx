@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react"
-import { ChalengeContext } from "../../contexts/ChalendsContext"
-import { CountDownContext } from "../../contexts/CountDownContext"
+import { ChalengeContext } from "../contexts/ChalendsContext"
+import { CountDownContext } from "../contexts/CountDownContext"
 
-import styles from "../../styles/components/countDown.module.css"
+import styles from "../styles/components/countDown.module.css"
 
 
 

@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import { ChalengeContext } from '../../contexts/ChalendsContext'
-import styles from '../../styles/components/experienceBar.module.css'
+import { ChalengeContext } from '../contexts/ChalendsContext'
+import styles from '../styles/components/experienceBar.module.css'
 export default function ExperienceBar() {
 const  {currentExperience , experienceToNextLevel } = useContext(ChalengeContext)
 
